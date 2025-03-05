@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../sesson08/baitap5.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img
+            src="data:image/png;base64,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"
+            alt="img"
+          />
+          <h3>TripGuide</h3>
+        </div>
+        <div class="usd">
+          <div><b>USD</b></div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgokdmoJUzfVs-QH5ZW7bVrzegPtUvcWwsg&s"
+            alt="img"
+          />
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <div class="use">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztqotWzlXbDD7TkSQ6ENeiK24Z5poLuownw&s"
+            alt="img"
+          />
+          <div><b>Brower</b></div>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="mainleft">
+          <div class="mainleft1">
+            <div class="list">Home</div>
+            <div class="list"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="list">Hotel list</div>
+            <div class="list"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="list">Hotle details</div>
+            <div class="list"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="list">Confilmr and pay</div>
+          </div>
+          <div class="mainleft2">Confirm your Book</div>
+          <div class="mainleft3">
+            <div class="conten">Your tour</div>
+            <div class="box1">
+              <div class="date">
+                <div class="date1">Date</div>
+                <div class="date2">June27 - 30, 2020</div>
+              </div>
+              <i class="fas fa-pen"></i>
+            </div>
+            <div class="box2">
+              <div class="date">
+                <div class="date1">Traveller</div>
+                <div class="date2">1 Passenger</div>
+              </div>
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+          <div class="mainleft4">
+            <img src="../sesson08/img/mayment card.png" alt="img" />
+          </div>
+          <div class="mainleft5">
+            <img src="../sesson08/img/card 1.png" alt="img" />
+            <img src="../sesson08/img/card 2.png" alt="img" />
+          </div>
+          <div class="mainleft6">
+            <form action="noaction">
+              <label for="number"> Card Number</label>
+              <input type="number" /><br /><br />
+              <label for="date"> Expiry Date</label>
+              <input type="date" />
+              <label for="number"> CVC/CVV</label>
+              <input type="password" maxlength="4" /><br /><br />
+              <label><input type="radio" /> Save Card</label><br /><br />
+              <button>Confirm and reserve</button>
+            </form>
+          </div>
+        </div>
+        <div class="mainright">
+          <div class="mainright1">
+            <div class="right1">Switzerland Hotels and Places to Stay</div>
+            <div class="right2">
+              <i class="fas fa-star"></i>
+              <div>4.8 (122 reviews)</div>
+            </div>
+            <div class="right3">
+              <img
+                src=".//img/daniel-corneschi-N6HTCyN50p0-unsplash 1.png"
+                alt="img"
+              />
+            </div>
+            <div class="right4">1 bedroom + 1 private room</div>
+            <div class="right5">
+              <div class="box1">
+                <div>Check in</div>
+                <div>June 27,2020</div>
+              </div>
+              <div class="box2">
+                <div>Check out</div>
+                <div>June 30,2020</div>
+              </div>
+            </div>
+            <div class="right6">
+              <div>Gusest</div>
+              <div>2 guests</div>
+            </div>
+            <div class="right7">
+              <h3>Booked details</h3>
+            </div>
+            <div class="right8">
+              <div class="box1">
+                <div>$119 + 5night</div>
+                <div>$833</div>
+              </div>
+              <div class="box2">
+                <div>Ocupancy text and fee</div>
+                <div>-$125</div>
+              </div>
+              <div class="box3">
+                <div>Service freet</div>
+                <div>$103</div>
+              </div>
+              <div class="box4">
+                <div>Total</div>
+                <div>$833</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer1">
+        <div class="right">
+          <div class="conten"><h5>Get our pro offers</h5>
+            <p>Create a visual identity your company</p>
+        </div>
+         <div class="right11">
+          <input type="text" placeholder="Type your email here" />
+          <button>Subscripe</button>
+         </div>
+      </div>
+      <div class="bottom">
+        <div class="left">
+          <img src="../sesson08/img/logo.png" alt="img" />
+          <p>iFwmAqHkq0p3DaVC</p>
+          <div class="i">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </div>
+        </div>
+        <div class="right0">
+         <div class="right1">
+            <div><b>gadsdc</b></div>
+            <div>sdfsdf</div>
+            <div>asfdasf</div>
+         </div>
+         <div class="right1">
+            <div><b>gadsdc</b></div>
+            <div>sdfsdf</div>
+            <div>asfdasf</div>
+         </div>
+         <div class="right1">
+            <div><b>gadsdc</b></div>
+            <div>sdfsdf</div>
+            <div>asfdasf</div>
+         </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
